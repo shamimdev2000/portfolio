@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Send, Bot, User, Loader2 } from 'lucide-react';
-import { geminiAssistant } from '../services/geminiService';
+import { GeminiAssistant } from '../services/geminiService';
 import { ChatMessage } from '../types';
 
 const AIAssistant: React.FC = () => {
@@ -28,7 +28,7 @@ const AIAssistant: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const response = await geminiAssistant.chat(messages, userMsg);
+      const response = await GeminiAssistant.chat(messages, userMsg);
       setMessages(prev => [...prev, { role: 'model', content: response }]);
     } catch (error) {
       setMessages(prev => [...prev, { role: 'model', content: "Sorry, I ran into an error. Please try again." }]);
