@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
     image: '{project3}',
     tags: ['React', 'JavaScript', 'Tailwind Css', 'Node Js'],
     link: '#',
-    github: 'https://chatting-apps-3ltp.vercel.app/login',
+    github: 'https://chatting-apps.vercel.app/',
   },
 ];
 
