@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Project, Skill, Experience } from './types';
-import project1 from './components/Assets/project1.jpg';
 import { 
   Code2, 
   Database, 
@@ -22,7 +21,7 @@ export const SOCIAL_LINKS = [
   { name: 'Facebook', icon: <Facebook className="w-5 h-5" />, href: 'https://www.facebook.com/md.shamim.899196' },
   { name: 'LinkedIn', icon: <Linkedin className="w-5 h-5" />, href: 'https://www.linkedin.com/in/md-shamim-46a495319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
   { name: 'Twitter', icon: <Twitter className="w-5 h-5" />, href: 'https://twitter.com' },
-  { name: 'Email', icon: <Mail className="w-5 h-5" />, href: 'mailto:contact@shamim.dev' },
+  { name: 'Email', icon: <Mail className="w-5 h-5" />, href: 'mdshamim.en@gmail.com' },
 ];
 
 export const PROJECTS: Project[] = [
@@ -33,25 +32,25 @@ export const PROJECTS: Project[] = [
     image: '{project1}',
     tags: ['React', 'JavaScript', 'Tailwind Css', 'Node Js'],
     link: '#',
-    github: 'https://github.com/shamimdev2000',
+    github: 'https://petroil-gold.vercel.app/',
   },
   {
     id: '2',
-    title: 'Nexus E-commerce',
+    title: 'Nexcent Project',
     description: 'A headless commerce platform with AI-driven product recommendations and ultra-fast edge delivery.',
-    image: '',
+    image: '{project2}',
     tags: ['React', 'JavaScript', 'Tailwind Css', 'Node Js'],
     link: '#',
-    github: 'https://github.com/shamimdev2000',
+    github: 'https://nexcent-sage.vercel.app/',
   },
   {
     id: '3',
-    title: 'Veritas Auth',
+    title: 'Chatting Application',
     description: 'A decentralized identity management system built on blockchain protocols for secure enterprise access.',
-    image: '',
+    image: '{project3}',
     tags: ['React', 'JavaScript', 'Tailwind Css', 'Node Js'],
     link: '#',
-    github: 'https://github.com/shamimdev2000',
+    github: 'https://chatting-apps-3ltp.vercel.app/login',
   },
 ];
 

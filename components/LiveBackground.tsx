@@ -53,7 +53,7 @@ const LiveBackground: React.FC = () => {
       draw(ctx: CanvasRenderingContext2D) {
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(99, 102, 241, 0.4)';
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.81)';
         ctx.fill();
       }
     }

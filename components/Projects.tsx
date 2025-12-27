@@ -3,6 +3,9 @@ import React from 'react';
 import { PROJECTS } from '../constants';
 import { ExternalLink, Github } from 'lucide-react';
 import project1 from './Assets/project1.png';
+import project2 from './Assets/project2.png';
+import project3 from './Assets/project3';
+
 
 
 const Projects: React.FC = () => {
@@ -30,7 +33,6 @@ const Projects: React.FC = () => {
               <div className="relative h-56 overflow-hidden">
                 <img 
                   src={project1} 
-                  alt={project.title} 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
